@@ -77,8 +77,8 @@ The **processed train/val/test data structures file** is available,
 
 The trained models for Node-to-Node & Node-to-Edge task:
 
-- Example trained Model for Node-to-Node Prediction (Stage1): [exp202308271352_3.pth](./model/save/exp202308271352_3.pth)
-- Example trained Model for Node-to-Edge Prediction (Stage1+2): [exp202312032110_1.pth](./model/save/exp202312032110_1.pth)
+- Example trained Model for Node-to-Node Prediction (Stage1): [exp202308271352_3.pth](./save/exp202308271352_3.pth)
+- Example trained Model for Node-to-Edge Prediction (Stage1+2): [exp202312032110_1.pth](./save/exp202312032110_1.pth)
 
 ## Model Training
 For Node-to-Node Prediction(Stage1), please set in the:
@@ -107,8 +107,8 @@ And put all codes together to run the training process.
 Or directly run tasks' `Jupyter Notebook`:
 
 
-[Runnable_Pre_Training.ipynb](./model/Pretraining_GCT_Flows/Runnable_Pre_Training.ipynb)
+[Runnable_Pre_Training.ipynb](./Pretraining_GCT_Flows/Runnable_Pre_Training.ipynb)
 
 
-[Runnable_Framework.ipynb](./model/Training_Framework_Mobility_Flows/Runnable_Framework.ipynb)
+[Runnable_Framework.ipynb](./Training_Framework_Mobility_Flows/Runnable_Framework.ipynb)
 
