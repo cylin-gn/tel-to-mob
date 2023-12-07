@@ -16,8 +16,8 @@ This is a Pytorch implementation of the proposed 2-stage STGNN framework.
 
 ## Data Preparation
 
-- The original CSV file for GCT flow is available at: [GCT flow.csv](../main/data/Raw/merged_GCT.csv)
-- The original CSV file for Mobility flow is available at: [Mobility flow.csv](../main/data/Raw/merged_mobility.csv)
+- The original CSV file for GCT flow is available at: [GCT flow.csv](../data/Raw/merged_GCT.csv)
+- The original CSV file for Mobility flow is available at: [Mobility flow.csv](../data/Raw/merged_mobility.csv)
 - To generate the **train/val/test datasets** for each type of GCT flow as {train,val,test}.npz, please follow the [script](https://github.com/liyaguang/DCRNN/blob/master/scripts/generate_training_data.py),
 using the CSV files provided above.
 
@@ -50,15 +50,15 @@ Run the [scripts](https://github.com/liyaguang/DCRNN/blob/master/scripts/generat
 
 ## Graph Construction
 As the implementation is based on pre-calculated distances between road sections, we provided the CSV file with road section distances and IDs at: 
-- GCT Flow: [Distance between connected road segments (in meters)](../main/data/GCT-flow/nodes_distance.txt). 
-- The distance between Mobility Flows is corresponding to the distance of their starting nodes, 
-  based on: [GPS coordinates for each road segment ID](../main/data/Incoming_Flows/neighbors_manual_v7_rename.csv).
+- GCT Flow: [Distance between connected road segments (in meters)](../data/GCT-flow/nodes_distance.txt). 
+- The distance between Mobility Flows corresponds to the distance of their starting nodes, 
+  based on: [GPS coordinates for each road segment ID](../data/Incoming_Flows/neighbors_manual_v7_rename.csv).
 
 Run the [script](https://github.com/liyaguang/DCRNN/blob/master/scripts/gen_adj_mx.py) to generate the Graph Structure based on the "Road Section Distance" file provided above.
 
 The `processed Graph Structure of Road Section Network` is available at: 
-- GCT Flow: [road network structure file](../main/data/GCT-flow/adj_mat_input.pkl)
-- Mobility Flow: - [road network structure file](../main/data/Mobility-Flow/adj_mat_input.pkl)
+- GCT Flow: [road network structure file](../data/GCT-flow/adj_mat_input.pkl)
+- Mobility Flow: - [road network structure file](../data/Mobility-Flow/adj_mat_input.pkl)
 
 
 ## Datasets for training
