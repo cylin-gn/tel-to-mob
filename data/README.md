@@ -35,14 +35,14 @@ using the CSV files provided above.
 
 ## train/test/valid dataset
 
-The train/test/val data is now provided at : 
+The train/test/val data is now provided at ./GCT-flow, or in ./model:
 - For GCT flow:
 ```
-./GCT-flow
+../model/Data/v7_GCT_flow_34nodes_84edges
 ```
-- For Mobility-Flow:
+- Mobility-Flow is also provided at ./Mobility-Flow, or in ./model:
 ```
-./Mobility-Flow
+../model/Data/v7_Mobility_flow_34nodes_84edges
 ```
 
 ## Graph Construction
