@@ -4,13 +4,13 @@
 ## Pre-trained STGNN (Stage 1):
 ### using historical GCT to predict future GCT flow (for feature extraction) 
 
-<img src="../main/figure/ST_model.png" alt="" width=85%/>
+<img src="../figure/ST_model.png" alt="" width=85%/>
 
 
 ## Framework (Stages 1+2): 
 ### using the extracted features from Pre-trained STGNN, then refined them and predict mobiltiy flows (for the main purpose)
 
-<img src="../main/figure/2_stage_framework.png" alt="" width=100%/>
+<img src="../figure/2_stage_framework.png" alt="" width=100%/>
 
 This is a Pytorch implementation of the proposed 2-stage STGNN framework.
 
