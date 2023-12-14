@@ -75,13 +75,13 @@ The **processed train/val/test data structures file** is available,
 
 ## Example trained Models
 
-The trained models for Node-to-Node & Node-to-Edge task:
+The trained models for GCT flow prediction (Stage 1) & Mobiltiy flow prediction (Stages 1 + 2) task:
 
-- Example trained Model for Node-to-Node Prediction (Stage1): [exp202308271352_3.pth](./save/exp202308271352_3.pth)
-- Example trained Model for Node-to-Edge Prediction (Stage1+2): [exp202312032110_1.pth](./save/exp202312032110_1.pth)
+- Example trained Model for GCT flow prediction (Stage1): [exp202308271352_3.pth](./save/exp202308271352_3.pth)
+- Example trained Model for Mobiltiy flow prediction (Stage1+2): [exp202312032110_1.pth](./save/exp202312032110_1.pth)
 
 ## Model Training
-For Node-to-Node Prediction(Stage1), please set in the:
+For GCT flow prediction Prediction(Stage1), please set in the:
 ```
 ./Pretraining_GCT_Flows
 ```
